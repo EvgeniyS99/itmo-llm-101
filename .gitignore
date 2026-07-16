@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+tokens.py
