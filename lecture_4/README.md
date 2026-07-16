@@ -18,4 +18,4 @@ After this lecture, participants will be able to:
 - [Seminar notebook](seminar_4.ipynb)
 - [Homework](hw_3.ipynb)
 
-Some seminar examples expect a local `tokens.py` module containing an API key. Keep this file local; it is excluded by `.gitignore`.
+The seminar loads provider configuration from a local `.env` file.

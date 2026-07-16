@@ -58,7 +58,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Some exercises require additional system-level tools or services, including Ollama, vLLM, Docker, and access to a GPU. Notebooks that use external model providers also require locally configured credentials. Never commit API keys or access tokens to the repository.
+Some exercises require additional system-level tools or services, including Ollama, vLLM, Docker, and access to a GPU. Notebooks that use external model providers also require locally configured credentials.
 
 ## Repository Layout
 
