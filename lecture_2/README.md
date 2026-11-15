@@ -9,8 +9,8 @@ After this lecture, participants will be able to:
 - explain KV-cache usage, batching, and common transformer inference bottlenecks;
 - compare quantization strategies and their impact on quality, memory, and speed;
 - measure latency, throughput, memory consumption, and generation quality;
-- serve open-source models with Ollama and vLLM; call hosted models through OpenAI-compatible APIs;
-- work with OpenAI-compatible inference APIs.
+- serve open-source models with Ollama and vLLM;
+- access hosted models through OpenAI-compatible APIs.
 
 ## Materials
 
