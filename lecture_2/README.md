@@ -15,8 +15,8 @@ After this lecture, participants will be able to:
 ## Materials
 
 - [Presentation: LLM Serving](llm_serving.pdf)
-- [Seminar notebook](<seminar_2 (1).ipynb>)
-- [Homework](<hw_1 (1).ipynb>)
-- [Math benchmark dataset](ege_math_open_2025.csv)
+- [Seminar notebook](seminar_2.ipynb)
+- [Homework](hw_1.ipynb)
+- [Math benchmark dataset](ege_math_2025_2026.csv)
 - [Ollama model definition](Modelname_1.txt)
 - [vLLM Docker runner](run_vllm_docker_1.sh)
