@@ -1,0 +1,23 @@
+name: Lecture 3 notebook preflight
+
+on:
+  push:
+    paths:
+      - 'lecture_3/**'
+      - '.github/workflows/lecture3-check.yml'
+  pull_request:
+    paths:
+      - 'lecture_3/**'
+      - '.github/workflows/lecture3-check.yml'
+  workflow_dispatch:
+
+jobs:
+  notebook-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate notebook syntax and offline behavior
+        run: python -m unittest discover -s lecture_3 -p 'test_*.py' -v
